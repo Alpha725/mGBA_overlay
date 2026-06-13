@@ -10,7 +10,7 @@ Please ignore the random artifacting on the video. That is my work station/OBS s
 %% Overlay 
 graph TD
 	mGBA --> | lau | server.lua
-    server.lua <-> | TCP | client.py
+    server.lua <--> | TCP | client.py
 	client.py --> | HTTP | overlay
 ```
 
